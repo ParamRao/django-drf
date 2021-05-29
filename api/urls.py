@@ -19,7 +19,6 @@ schema_view = get_schema_view(
 )
 
 urlpatterns = [
-    # path('', views.home, name='Sample Assignment APIs'),
     path('ping/', views.ping_view, name='Ping API'),
     path('list-ping/', views.list_ping_view, name='List of Ping Made'),
     path('info/', views.info_view, name='Info API'),
